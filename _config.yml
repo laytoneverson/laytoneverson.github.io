@@ -1,0 +1,36 @@
+# Site settings
+title: "Layton Everson"
+subtitle: "Rock-star Php Developer"
+email: "layton.everson@gmail.com"
+description: "I am a Php web developer with 12+ years of experience developing web applications."
+baseurl: ""
+url: ""
+author: "Layton Everson"
+street_address: "1228 N 850 W CIR"
+city: "Saint George"
+state: UT
+zip_code: 84770
+country: USA
+phone: "(801) 638-9973"
+
+# Homepage tiles
+tiles-source: posts
+tiles-count: 6
+
+# Social settings
+500px_url:
+facebook_url: "https://facebook.com/laytone"
+github_url: "https://github.com/laytoneverson"
+gitlab_url:
+googleplus_url: "https://plus.google.com/+LaytonEverson"
+instagram_url:
+linkedin_url: "https://www.linkedin.com/in/laytoneverson"
+pinterest_url:
+slack_url:
+twitter_url: "https://twitter.com/laytone"
+
+# Build settings
+markdown: kramdown
+
+sass:
+  style: compressed
