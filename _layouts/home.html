@@ -13,7 +13,7 @@
     {% include header.html %}
 
     <!-- Banner -->
-    <section id="banner" class="major">
+    <section id="banner" class="major" style="padding-bottom: 0px;">
         <div class="inner">
             <header class="major">
                 <h1>{{ page.landing-title }}</h1>
@@ -33,8 +33,23 @@
     <div id="main">
 
         <!-- One -->
-        <section id="one" class="tiles bg2">
-            {% include tiles.html %}
+        <section id="one" class="bg2">
+            <div class="inner">
+                <header class="major">
+                    <h2>My Skill Set</h2>
+                </header>
+                <div class="row">
+                    <div class="6u 12u$(small)">
+                        <h4>Category Name</h4>
+                        <ul class="skill-set">  
+                            <li>Skill Name - (NUM) Years</li>
+                            <li>Skill Name - (NUM) Years</li>
+                            <li>Skill Name - (NUM) Years</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--{% include tiles.html %}-->
         </section>
 
         <!-- Two -->
