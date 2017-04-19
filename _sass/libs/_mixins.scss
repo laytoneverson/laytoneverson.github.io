@@ -22,6 +22,11 @@
 
 }
 
+@mixin background-two() {
+	background-color: _palette(bg2); ;
+}
+
+
 /// Applies padding to an element, taking the current element-margin value into account.
 /// @param {mixed} $tb Top/bottom padding.
 /// @param {mixed} $lr Left/right padding.

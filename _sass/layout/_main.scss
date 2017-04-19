@@ -19,12 +19,14 @@
 			@include inner;
 		}
 
+		> section {
+			.bg2 {
+				@include background-two;
+			}
+		}
+
 		&.alt {
 			background-color: transparent;
 			border-bottom: solid 1px _palette(border);
 		}
-	}
-
-	.bg2 {
-		background-color: _palette(bg2);
 	}

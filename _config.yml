@@ -40,4 +40,5 @@ twitter_url: "https://twitter.com/laytone"
 markdown: kramdown
 
 sass:
-  style: compressed
+  style: expanded
+  sass_dir: _sass
