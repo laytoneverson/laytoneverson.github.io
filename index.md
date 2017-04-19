@@ -1,8 +1,8 @@
 ---
 layout: home
-title: Layton Everson's Home Page
-landing-title: 'Hi, my name is Layton Everson'
-description: null
+title: Layton Everson
+landing-title: "I'm Layton, an adept Php developer"
+description: 
 image: null
 author: null
 ---

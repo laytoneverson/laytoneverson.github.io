@@ -18,12 +18,12 @@
             <header class="major">
                 <h1>{{ page.landing-title }}</h1>
             </header>
-            <div class="content">
-                <p style="text-transform: uppercase;">{{ site.description }}</p>
-                <ul class="links">
-                    <li><a href="#one" class="">View Skill Set</a></li>
-                    <li><a href="#two" class="">View Work History</a></li>
-                    <li><a href="#three" class="">View Projects</a></li>
+            <div class="content" style="margin-bottom: 0px">
+                <p style="text-transform: uppercase; text-align: justify">{{ site.description }}</p>
+                <ul class="small">
+                    <li style="display: block"><a href="#one" class="button small fit special icon fa-university" style="">View Skill Set</a></li>
+                    <li style="display: block"><a href="#two" class="button small fit special icon fa-wrench" style="">My Experience</a></li>
+                    <li style="display: block"><a href="#three" class="button small fit special icon fa-tasks" style="padding-right: auto;">See Projects</a></li>
                 </ul>
             </div>
         </div>
@@ -33,7 +33,9 @@
     <div id="main">
 
         <!-- One -->
-        {% include tiles.html %}
+        <section id="one" class="tiles bg2">
+            {% include tiles.html %}
+        </section>
 
         <!-- Two -->
         <section id="two">
@@ -43,9 +45,27 @@
                 </header>
                 <p>{{ content }}</p>
                 <ul class="actions">
-                    <li><a href="landing.html" class="button next">Get Started</a></li>
+                    <li><a href="landing.html" class="button next">My Skill Set</a></li>
                 </ul>
             </div>
+        </section>
+
+        <!-- Three -->
+        <section id="three">
+            <div class="inner">
+                <header class="major">
+
+                    ## Sed amet aliquam
+
+                </header>
+
+                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In
+                efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu
+                lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus
+                et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.
+
+            </div>
+            <p></p>
         </section>
 
     </div>

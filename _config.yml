@@ -1,8 +1,15 @@
 # Site settings
 title: "Layton Everson"
-subtitle: "Rock-star Php Developer"
+subtitle: "Dynamite Backend Php Developer"
 email: "layton.everson@gmail.com"
-description: "I am a Php web developer with 12+ years of experience developing web applications."
+description: >
+    I have been building web applications for over 12 years. My favorite development stack is Symfony
+    and Doctrine2. I also enjoy writing applications using Zend Framework 2 and Laravel. I strive to
+    write clean, stable code and always keep attention on the needs of the business. I'm a natural
+    leader who gains respect by example and demonstration. I have a great attitude about my work and
+    take challenges by the horns. Read below to discover my skills, experience, and projects; then use
+    the contact form to reach me.
+
 baseurl: ""
 url: ""
 author: "Layton Everson"
