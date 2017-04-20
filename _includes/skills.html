@@ -3,13 +3,17 @@
         <h2>My Skill Set</h2>
     </header>
     <div class="row">
-        <div class="6u 12u$(small)">
-            <h4>Category Name</h4>
+        <div class="">
+            {% for skillCategories in site.data.skills %}
+            <h4>{{ forloop.index }}</h4>
             <ul class="skill-set">
-                <li>Skill Name - (NUM) Years</li>
+                {% for skill in skillCategories %}
+                <li>{{ forloop.index }} - (skill) Years</li>
+                {% endfor %}
                 <li>Skill Name - (NUM) Years</li>
                 <li>Skill Name - (NUM) Years</li>
             </ul>
+            {% endfor %}
         </div>
     </div>
 </div>
