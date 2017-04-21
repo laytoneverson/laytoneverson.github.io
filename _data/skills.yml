@@ -1,17 +1,93 @@
 "Programming Languages":
-    Php: "9 Years"
-    Javascript: "6 Years"
-    Cold Fusion: "2 Years"
-    Visual Basic: "2 Years"
-    Asp.NET: "1 Years"
+    -   name: "Php"
+        description: ""
+        experienceLength: "9 Years"
+        skillLevel: "8"
+
+    -   name: "Javascript"
+        description: ""
+        experienceLength: "6 Years"
+        skillLevel: "3"
+
+    -   name: "Cold Fusion"
+        description: ""
+        experienceLength: "2 Years"
+        skillLevel: "2"
+
+    -   name: "Visual Basic"
+        description: ""
+        experienceLength: "2 Years"
+        skillLevel: "2"
+
+    -   name: "Asp.NET"
+        description: ""
+        experienceLength: "1 Years"
+        skillLevel: "2"
+
+    -   name: "SQL"
+        description: ""
+        experienceLength: "12 Years"
+        skillLevel: "6"
 
 "Php Frameworks & Libraries":
-    "Symfony 2+": "5 Years"
-    "Zend Framework 2": "2 Years"
-    "Doctrine 2": "7 Years"
-    "Apigility": "2 Years"
-    "CakePhp": "3 Years"
-    "Wordpress": "~"
-    "Joomla": "~"
+    -   name: "Symfony 2+"
+        description: ""
+        experienceLength: "5 Years"
+        skillLevel: "7"
 
-"Software & Tools":
+    -   name: "Zend Framework 2"
+        description: ""
+        experienceLength: "2 Years"
+        skillLevel: "5"
+
+    -   name: "Doctrine 2"
+        description: ""
+        experienceLength: "7 Years"
+        skillLevel: "7"
+
+    -   name: "Apigility"
+        description: ""
+        experienceLength: "2 Years"
+        skillLevel: "6"
+
+    -   name: "CakePhp"
+        description: ""
+        experienceLength: "3 Years"
+        skillLevel: "5"
+
+    -   name: "Wordpress"
+        description: ""
+        experienceLength: "~"
+        skillLevel: "4"
+
+    -   name: "Joomla"
+        description: ""
+        experienceLength: "~"
+        skillLevel: "3"
+
+"Software, Tools & Environments":
+    -   name: "Git"
+        description: ""
+        experienceLength: "6 Years"
+        skillLevel: "8"
+
+    -   name: "Windows OS"
+        description: ""
+        experienceLength: "15 Years"
+        skillLevel: "8"
+
+    -   name: "Mac OSX"
+        description: ""
+        experienceLength: "4 Years"
+        skillLevel: "7"
+
+    -   name: "Linux OS"
+        description: ""
+        experienceLength: "3 Years"
+        skillLevel: "5"
+
+    -   name: "Terminal / Console"
+        description: ""
+        experienceLength: "7 Years"
+        skillLevel: "5"
+
