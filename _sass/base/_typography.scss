@@ -57,6 +57,10 @@
 
 	p {
 		margin: 0 0 _size(element-margin) 0;
+
+		&.normal {
+			font-weight: _font(weight);
+		}
 	}
 
 	h1, h2, h3, h4, h5, h6 {

@@ -1,19 +1,29 @@
 <div class="inner">
     <header class="major">
-        <h2>My Skill Set</h2>
+        <h2>Layton Everson's Set of Skill</h2>
     </header>
     <div class="row">
-        <div class="">
-            {% for skillCategories in site.data.skills %}
-            <h4>{{ forloop.index }}</h4>
+        <p class="normal">
+            Over the years I have worked on several projects and used lots of different technologies. Below you will
+            a nearly complete list of skills I have acquired while doing so. Next to each skill you will find the length,
+            in years, I have worked with each skill and my level of proficiency. <b>1</b> is barely exposed, <b>5</b> is
+            proficient and and <b>10</b> is where I would place a person responsible for pioneering the technology.
+        </p>
+
+        {% for skillCategories in site.data.skills %}
+        <header class="minor">
+            {% assign categoryName = skillCategories[0] %}
+            <h4>{{ categoryName }}</h4>
+        </header>
+        <div>
             <ul class="skill-set">
-                {% for skill in skillCategories %}
-                <li>{{ forloop.index }} - (skill) Years</li>
+                {% assign categorySkills = skillCategories[1] %}
+                {% for skill in categorySkills %}
+                <li>{{ skill.name }} - ({{ skill.experienceLength }}) {{ skill.skillLevel }}/10</li>
                 {% endfor %}
-                <li>Skill Name - (NUM) Years</li>
-                <li>Skill Name - (NUM) Years</li>
             </ul>
-            {% endfor %}
         </div>
+        {% endfor %}
+
     </div>
 </div>
