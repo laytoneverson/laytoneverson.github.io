@@ -1,28 +1,35 @@
 <div class="skills-section">
     <div class="inner row">
-        <header class="major">
-            <h2>Layton Everson's Set of Skill</h2>
+        <header class="minor">
+            <h2>My backend web developer skill set:</h2>
         </header>
         <p class="normal">
-            Over the years I have worked on several projects and used lots of different technologies. Below you will
-            a nearly complete list of skills I have acquired while doing so. Next to each skill you will find the length,
-            in years, I have worked with each skill and my level of proficiency. <b>1</b> is barely exposed, <b>5</b> is
-            proficient and and <b>10</b> is where I would place a person responsible for pioneering the technology.
+            Over the years I have worked on several projects and used lots of different technologies. Below you will find
+            a nearly complete list of the skills I have acquired while doing so. Each skill is listed and includes the
+            accumulated length in years I have used the technology, and my level of proficiency.<br><br>
+            <span class="smaller-text">
+                <b>Skill Scale: </b> 1 through 10 with
+                1 meaning "Some exposure to the technology",  5 meaning "Proficient and comfortable using the technology",
+                and 10 meaning "Someone pioneering the technology"
+            </span>
         </p>
-        {% for skillCategories in site.data.skills %}
-        <header class="minor">
-            {% assign categoryName = skillCategories[0] %}
-            <h4>{{ categoryName }}</h4>
-        </header>
-        <div class="">
-            <ul class="skill-set">
-                {% assign categorySkills = skillCategories[1] %}
-                {% for skill in categorySkills %}
-                <li>{{ skill.name }} - ({{ skill.experienceLength }}) {{ skill.skillLevel }}/10</li>
-                {% endfor %}
-            </ul>
+
+        <div>
+            {% for skillCategories in site.data.skills %}
+            <header class="minor">
+                {% assign categoryName = skillCategories[0] %}
+                <h4>{{ categoryName }}</h4>
+            </header>
+            <div class="">
+                <ul class="skill-set">
+                    {% assign categorySkills = skillCategories[1] %}
+                    {% for skill in categorySkills %}
+                    <li>{{ skill.name }} - ({{ skill.experienceLength }}) {{ skill.skillLevel }}/10</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endfor %}
         </div>
-        {% endfor %}
 
     </div>
 </div>
