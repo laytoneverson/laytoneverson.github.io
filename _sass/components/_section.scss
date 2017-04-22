@@ -12,6 +12,21 @@
 		}
 	}
 
+	.skills-section {
+		position: relative;
+		background: linear-gradient(180deg, _palette(bg2g1), _palette(bg2g0)), url("/assets/images/bg_skills_mod.jpg");
+		background-position: center 0;
+		background-color: _palette(bg2g1);
+		background-attachment: local;
+		background-blend-mode: luminosity;
+
+		@include inner;
+	}
+
+	.colored-block {
+		background-color: _palette(bg2a);
+	}
+
 	header {
 		&.major {
 			width: -moz-max-content;

@@ -1,21 +1,20 @@
-<div class="inner">
-    <header class="major">
-        <h2>Layton Everson's Set of Skill</h2>
-    </header>
-    <div class="row">
+<div class="skills-section">
+    <div class="inner row">
+        <header class="major">
+            <h2>Layton Everson's Set of Skill</h2>
+        </header>
         <p class="normal">
             Over the years I have worked on several projects and used lots of different technologies. Below you will
             a nearly complete list of skills I have acquired while doing so. Next to each skill you will find the length,
             in years, I have worked with each skill and my level of proficiency. <b>1</b> is barely exposed, <b>5</b> is
             proficient and and <b>10</b> is where I would place a person responsible for pioneering the technology.
         </p>
-
         {% for skillCategories in site.data.skills %}
         <header class="minor">
             {% assign categoryName = skillCategories[0] %}
             <h4>{{ categoryName }}</h4>
         </header>
-        <div>
+        <div class="">
             <ul class="skill-set">
                 {% assign categorySkills = skillCategories[1] %}
                 {% for skill in categorySkills %}

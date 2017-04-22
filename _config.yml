@@ -1,19 +1,13 @@
 # Site settings
 title: "Layton Everson"
-subtitle: "Dynamite Backend Php Developer"
+subtitle: "Senior Backend Php Developer"
 email: "layton.everson@gmail.com"
-description: >
-    I have been building web applications for over 12 years. My favorite development stack is Symfony
-    and Doctrine2. I also enjoy writing applications using Zend Framework 2 and Laravel. I strive to
-    write clean, stable code and always keep attention on the needs of the business. I'm a natural
-    leader who gains respect by example and demonstration. I have a great attitude about my work and
-    take challenges by the horns. Read below to discover my skills, experience, and projects; then use
-    the contact form to reach me.
+description: ""
 
 baseurl: ""
 url: ""
 author: "Layton Everson"
-street_address: "1228 N 850 W CIR"
+street_address: ""
 city: "Saint George"
 state: UT
 zip_code: 84770

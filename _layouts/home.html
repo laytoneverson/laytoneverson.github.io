@@ -16,14 +16,14 @@
     <section id="banner" class="major" style="padding-bottom: 0px;">
         <div class="inner">
             <header class="major">
-                <h1>{{ page.landing-title }}</h1>
+                <h1>{{ page.banner-title }}</h1>
             </header>
             <div class="content" style="margin-bottom: 0px">
-                <p style="text-transform: uppercase; text-align: justify">{{ site.description }}</p>
+                <p style="text-transform: uppercase; text-align: justify">{{ page.introduction }}</p>
                 <ul class="small">
-                    <li style="display: block"><a href="#one" class="button small fit special icon fa-university" style="">View Skill Set</a></li>
-                    <li style="display: block"><a href="#two" class="button small fit special icon fa-wrench" style="">My Experience</a></li>
-                    <li style="display: block"><a href="#three" class="button small fit special icon fa-tasks" style="padding-right: auto;">See Projects</a></li>
+                    <li style="display: block"><a href="#one" class="button small fit special icon fa-university scrolly" style="">View Skill Set</a></li>
+                    <li style="display: block"><a href="#two" class="button small fit special icon fa-wrench scrolly" style="">My Experience</a></li>
+                    <li style="display: block"><a href="#three" class="button small fit special icon fa-tasks scrolly" style="padding-right: auto;">See Projects</a></li>
                 </ul>
             </div>
         </div>
@@ -33,7 +33,7 @@
     <div id="main">
 
         <!-- One -->
-        <section id="one" class="bg2">
+        <section id="one" class="">
             {% include skills.html %}
         </section>
 
