@@ -66,7 +66,7 @@
 			padding-left: 0;
 
 			li {
-				display: block;
+				display: inline-block;
 				padding: 0 (_size(element-margin) * 0.5) 0 0;
 				vertical-align: middle;
 
@@ -136,11 +136,11 @@
 
 			li {
 				display: inline-block;
-				border-top: solid 1px _palette(border);
 				border-bottom: solid 1px _palette(border);
-				padding: 0.25em .5em;
+				margin: .25em (_size(element-margin) *.5);
+				padding: .25em _size(element-margin);
 				font-weight: normal;
-				margin: .25em .75em;
+				width: calc(25% + #{(_size(element-margin) * 0.5)} + _size(element-margin))
 			}
 		}
 	}

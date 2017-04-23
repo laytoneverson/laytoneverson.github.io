@@ -1,18 +1,18 @@
 <div class="skills-section">
-    <div class="inner row">
+    <div class="inner">
         <header class="minor">
-            <h2>My backend web developer skill set:</h2>
+            <h2 id="myskills">My backend web developer skill set:</h2>
+            <p class="normal">
+                Over the years I have worked on several projects and used lots of different technologies. Below you will find
+                a nearly complete list of the skills I have acquired while doing so. Each skill is listed and includes the
+                accumulated length in years I have used the technology, and my level of proficiency.<br><br>
+                <span class="smaller-text">
+                    <b>Skill Scale: </b> 1 through 10 with
+                    1 meaning "Some exposure to the technology",  5 meaning "Proficient and comfortable using the technology",
+                    and 10 meaning "Someone pioneering the technology"
+                </span>
+            </p>
         </header>
-        <p class="normal">
-            Over the years I have worked on several projects and used lots of different technologies. Below you will find
-            a nearly complete list of the skills I have acquired while doing so. Each skill is listed and includes the
-            accumulated length in years I have used the technology, and my level of proficiency.<br><br>
-            <span class="smaller-text">
-                <b>Skill Scale: </b> 1 through 10 with
-                1 meaning "Some exposure to the technology",  5 meaning "Proficient and comfortable using the technology",
-                and 10 meaning "Someone pioneering the technology"
-            </span>
-        </p>
 
         <div>
             {% for skillCategories in site.data.skills %}
@@ -20,16 +20,22 @@
                 {% assign categoryName = skillCategories[0] %}
                 <h4>{{ categoryName }}</h4>
             </header>
-            <div class="">
+            <div>
                 <ul class="skill-set">
                     {% assign categorySkills = skillCategories[1] %}
                     {% for skill in categorySkills %}
-                    <li>{{ skill.name }} - ({{ skill.experienceLength }}) {{ skill.skillLevel }}/10</li>
+                    <li>
+                        <h4 style="margin: 0 0 0 0;">{{ skill.name }}</h4>
+                        <span class="smaller-text">
+                            Practiced For: {{ skill.experienceLength }}<br>
+                            Skill Level: {{ skill.skillLevel }}/10
+                        </span>
+
+                    </li>
                     {% endfor %}
                 </ul>
             </div>
             {% endfor %}
         </div>
-
     </div>
 </div>

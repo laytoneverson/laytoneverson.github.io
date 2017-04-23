@@ -2,17 +2,21 @@
 title: "Layton Everson"
 subtitle: "Senior Backend Php Developer"
 email: "layton.everson@gmail.com"
-description: ""
 
 baseurl: ""
-url: ""
+url: "http://laytoneverson.surge.sh"
+
 author: "Layton Everson"
+
 street_address: ""
 city: "Saint George"
 state: UT
 zip_code: 84770
 country: USA
+
 phone: "(801) 638-9973"
+
+permalink: pretty
 
 # Homepage tiles
 tiles-source: posts
@@ -36,3 +40,14 @@ markdown: kramdown
 sass:
   style: expanded
   sass_dir: _sass
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: ""
+    values:
+      page-title: "Layton Everson Devloper Profile"
+      page-description: >
+        Layton Everson's professional profile. This site includes his skills, work history, projects,
+        and everything else you need to discover who Layton is as a web developer.

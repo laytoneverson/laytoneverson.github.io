@@ -1,6 +1,8 @@
 ---
 layout: home
-title: Layton Everson Php Developer
+page-title: Layton E. Developer Profile
+page-description: >
+  Home page of Layton Everson's developer profile. Discover skills, work history, and projects Layton has worked on. 
 banner-title: "I'm Layton, a Senior Php developer"
 introduction: >
   I have been building web applications for over 12 years. My favorite development stack is Symfony
@@ -9,9 +11,4 @@ introduction: >
   leader who gains respect by example and demonstration. I have a great attitude about my work and
   take challenges by the horns. Read below to discover my skills, experience, and projects; then use
   the contact form to reach me.
-description: 
-image: null
-author: Layton Everson
 ---
-
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
