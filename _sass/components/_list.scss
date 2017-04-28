@@ -132,15 +132,16 @@
 		}
 
 		&.skill-set {
-			list-style: disc;
+			list-style: none;
 
 			li {
 				display: inline-block;
 				border-bottom: solid 1px _palette(border);
-				margin: .25em (_size(element-margin) *.5);
-				padding: .25em _size(element-margin);
+				margin-bottom: _size(element-margin);
+				//margin: .25em (_size(element-margin) *.5);
+				//padding: .25em _size(element-margin);
 				font-weight: normal;
-				width: calc(25% + #{(_size(element-margin) * 0.5)} + _size(element-margin))
+				//width: calc(25% + #{(_size(element-margin) * 0.5)} + _size(element-margin))
 			}
 		}
 	}

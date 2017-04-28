@@ -16,15 +16,22 @@
 		@include inner;
 	}
 
-	.skills-section {
-		background: linear-gradient(180deg, _palette(bg2g1), _palette(bg2g0)), url("/assets/images/bg_skills_mod.jpg");
-		background-position: center 0;
+	#one {
+		background: url("/assets/images/bg_skills_mod.jpg");
+		position: relative;
+		background-position: center ;
 		background-color: _palette(bg2g1);
-		background-attachment: local;
+		background-attachment: fixed;
 		background-blend-mode: luminosity;
 		background-size: cover;
+		background-repeat: no-repeat;
+		//height: 1300px;
 
-		@include inner;
+		> .skills-section {
+			background: linear-gradient(180deg, _palette(bg2g1), _palette(bg2g0));
+
+			@include inner;
+		}
 	}
 
 	header {

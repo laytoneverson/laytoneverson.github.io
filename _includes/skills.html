@@ -21,10 +21,10 @@
                 <h4>{{ categoryName }}</h4>
             </header>
             <div>
-                <ul class="skill-set">
+                <ul class="skill-set row">
                     {% assign categorySkills = skillCategories[1] %}
                     {% for skill in categorySkills %}
-                    <li>
+                    <li class="3u 4u(medium) 6u(small) 12u(xsmall)">
                         <h4 style="margin: 0 0 0 0;">{{ skill.name }}</h4>
                         <span class="smaller-text">
                             Practiced For: {{ skill.experienceLength }}<br>
